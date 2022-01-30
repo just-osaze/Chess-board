@@ -8,86 +8,134 @@
 
     <link rel="stylesheet" href="./output.css">
   </head>
-  <body class="bg-yellow-300">
-  <div class="grid grid-cols-8 text-center">
-    <div class="rook bg-white p-4">1</div>
-    <div class="knight bg-black p-4">2</div>
-    <div class="bishop bg-white p-4">3</div>
-    <div class="queen bg-black p-4">4</div>
-    <div class="king bg-white p-4">5</div>
-    <div class="bishop bg-black p-4">6</div>
-    <div class="knight bg-white p-4">7</div>
-    <div class="rook bg-black p-4">8</div>
-  </div>
-  <div class="grid grid-cols-8 text-center">
-    <div class="pawn bg-black p-4">9</div>
-    <div class="pawn bg-white p-4">10</div>
-    <div class="pawn bg-black p-4">11</div>
-    <div class="pawn bg-white p-4">12</div>
-    <div class="pawn bg-black p-4">13</div>
-    <div class="pawn bg-white p-4">14</div>
-    <div class="pawn bg-black p-4">15</div>
-    <div class="pawn bg-white p-4">16</div>
-  </div>
-  <div class="grid grid-cols-8 text-center">
-    <div class="rook bg-white p-4">1</div>
-    <div class="knight bg-black p-4">2</div>
-    <div class="bishop bg-white p-4">3</div>
-    <div class="queen bg-black p-4">4</div>
-    <div class="king bg-white p-4">5</div>
-    <div class="bishop bg-black p-4">6</div>
-    <div class="knight bg-white p-4">7</div>
-    <div class="rook bg-black p-4">8</div>
-  </div>
-  <div class="grid grid-cols-8 text-center">
-    <div class="pawn bg-black p-4">9</div>
-    <div class="pawn bg-white p-4">10</div>
-    <div class="pawn bg-black p-4">11</div>
-    <div class="pawn bg-white p-4">12</div>
-    <div class="pawn bg-black p-4">13</div>
-    <div class="pawn bg-white p-4">14</div>
-    <div class="pawn bg-black p-4">15</div>
-    <div class="pawn bg-white p-4">16</div>
-  </div>
-  <div class="grid grid-cols-8 text-center">
-    <div class="rook bg-white p-4">1</div>
-    <div class="knight bg-black p-4">2</div>
-    <div class="bishop bg-white p-4">3</div>
-    <div class="queen bg-black p-4">4</div>
-    <div class="king bg-white p-4">5</div>
-    <div class="bishop bg-black p-4">6</div>
-    <div class="knight bg-white p-4">7</div>
-    <div class="rook bg-black p-4">8</div>
-  </div>
-  <div class="grid grid-cols-8 text-center">
-    <div class="pawn bg-black p-4">9</div>
-    <div class="pawn bg-white p-4">10</div>
-    <div class="pawn bg-black p-4">11</div>
-    <div class="pawn bg-white p-4">12</div>
-    <div class="pawn bg-black p-4">13</div>
-    <div class="pawn bg-white p-4">14</div>
-    <div class="pawn bg-black p-4">15</div>
-    <div class="pawn bg-white p-4">16</div>
-  </div>
-  <div class="grid grid-cols-8 text-center">
-    <div class="rook bg-white p-4">1</div>
-    <div class="knight bg-black p-4">2</div>
-    <div class="bishop bg-white p-4">3</div>
-    <div class="queen bg-black p-4">4</div>
-    <div class="king bg-white p-4">5</div>
-    <div class="bishop bg-black p-4">6</div>
-    <div class="knight bg-white p-4">7</div>
-    <div class="rook bg-black p-4">8</div>
-  </div>
-  <div class="grid grid-cols-8 text-center">
-    <div class="pawn bg-black p-4">9</div>
-    <div class="pawn bg-white p-4">10</div>
-    <div class="pawn bg-black p-4">11</div>
-    <div class="pawn bg-white p-4">12</div>
-    <div class="pawn bg-black p-4">13</div>
-    <div class="pawn bg-white p-4">14</div>
-    <div class="pawn bg-black p-4">15</div>
-    <div class="pawn bg-white p-4">16</div>
-  </div>    
+  <body>
+    <main class="flex w-[630px] justify-around border-8 border-black ml-10">
+      <div class="mt-[50px]">
+        <div class="pawn bg-white text-md p-4 h-16">8</div>
+        <div class="pawn bg-white text-md p-4 h-16">7</div>
+        <div class="pawn bg-white text-md p-4 h-16">6</div>
+        <div class="pawn bg-white text-md p-4 h-16">5</div>
+        <div class="pawn bg-white text-md p-4 h-16">4</div>
+        <div class="pawn bg-white text-md p-4 h-16">3</div>
+        <div class="pawn bg-white text-md p-4 h-16">2</div>
+        <div class="pawn bg-white text-md p-4 h-16">1</div>
+      </div>
+  
+      <div class="board">
+        <div class="grid grid-cols-8 text-center mb-8">
+          <div class="pawn bg-white  h-2 ">a</div>
+          <div class="pawn bg-white ">b</div>
+          <div class="pawn bg-white ">c</div>
+          <div class="pawn bg-white ">d</div>
+          <div class="pawn bg-white ">e</div>
+          <div class="pawn bg-white ">f</div>
+          <div class="pawn bg-white ">g</div>
+          <div class="pawn bg-white ">h</div>
+        </div> 
+        <div class="border-8 border-red-800 -mt-4">
+          <div class="grid grid-cols-8 text-center">
+            <div class="rook bg-[#ffe9c5] h-16 text-4xl p-3">&#9820;</div>
+            <div class="knight bg-[#e59514] h-16 text-4xl p-3">&#9822;</div>
+            <div class="bishop bg-[#ffe9c5] h-16 text-4xl p-3">&#9821;</div>
+            <div class="queen bg-[#e59514] h-16 text-4xl p-3">&#9819;</div>
+            <div class="king bg-[#ffe9c5] h-16 text-4xl p-3">&#9818;</div>
+            <div class="bishop bg-[#e59514] h-16 text-4xl p-3">&#9821;</div>
+            <div class="knight bg-[#ffe9c5] h-16 text-4xl p-3">&#9822;</div>
+            <div class="rook bg-[#e59514] h-16 text-4xl p-3">&#9820;</div>
+          </div>
+          <div class="grid grid-cols-8 text-center">
+            <div class="pawn bg-[#e59514] h-16 text-xl p-4">&#9823;</div>
+            <div class="pawn bg-[#ffe9c5] h-16 text-xl p-4">&#9823;</div>
+            <div class="pawn bg-[#e59514] h-16 text-xl p-4">&#9823;</div>
+            <div class="pawn bg-[#ffe9c5] h-16 text-xl p-4">&#9823;</div>
+            <div class="pawn bg-[#e59514] h-16 text-xl p-4">&#9823;</div>
+            <div class="pawn bg-[#ffe9c5] h-16 text-xl p-4">&#9823;</div>
+            <div class="pawn bg-[#e59514] h-16 text-xl p-4">&#9823;</div>
+            <div class="pawn bg-[#ffe9c5] h-16 text-xl p-4">&#9823;</div>
+          </div>
+          <div class="grid grid-cols-8 text-center">
+            <div class="rook bg-[#ffe9c5] h-16"></div>
+            <div class="knight bg-[#e59514]"></div>
+            <div class="bishop bg-[#ffe9c5]"></div>
+            <div class="queen bg-[#e59514]"></div>
+            <div class="king bg-[#ffe9c5]"></div>
+            <div class="bishop bg-[#e59514]"></div>
+            <div class="knight bg-[#ffe9c5]"></div>
+            <div class="rook bg-[#e59514]"></div>
+          </div>
+          <div class="grid grid-cols-8 text-center">
+            <div class="pawn bg-[#e59514] h-16 p-4"></div>
+            <div class="pawn bg-[#ffe9c5]"></div>
+            <div class="pawn bg-[#e59514]"></div>
+            <div class="pawn bg-[#ffe9c5]"></div>
+            <div class="pawn bg-[#e59514]"></div>
+            <div class="pawn bg-[#ffe9c5]"></div>
+            <div class="pawn bg-[#e59514]"></div>
+            <div class="pawn bg-[#ffe9c5]"></div>
+          </div>
+          <div class="grid grid-cols-8 text-center">
+            <div class="rook bg-[#ffe9c5] h-16 p-4 "></div>
+            <div class="knight bg-[#e59514]"></div>
+            <div class="bishop bg-[#ffe9c5]"></div>
+            <div class="queen bg-[#e59514]"></div>
+            <div class="king bg-[#ffe9c5]"></div>
+            <div class="bishop bg-[#e59514]"></div>
+            <div class="knight bg-[#ffe9c5]"></div>
+            <div class="rook bg-[#e59514]"></div>
+          </div>
+          <div class="grid grid-cols-8 text-center">
+            <div class="pawn bg-[#e59514] p-4 h-16 "> </div>
+            <div class="pawn bg-[#ffe9c5]"></div>
+            <div class="pawn bg-[#e59514]"></div>
+            <div class="pawn bg-[#ffe9c5]"></div>
+            <div class="pawn bg-[#e59514]"></div>
+            <div class="pawn bg-[#ffe9c5]"></div>
+            <div class="pawn bg-[#e59514]"></div>
+            <div class="pawn bg-[#ffe9c5]"></div>
+          </div>
+          <div class="grid grid-cols-8 text-center">
+            <div class="pawn bg-[#ffe9c5] text-4xl p-2 h-16">&#9817;</div>
+            <div class="pawn bg-[#e59514] text-4xl p-2">&#9817;</div>
+            <div class="pawn bg-[#ffe9c5] text-4xl p-2">&#9817;</div>
+            <div class="pawn bg-[#E59514] text-4xl p-2">&#9817;</div>
+            <div class="pawn bg-[#ffe9c5] text-4xl p-2">&#9817;</div>
+            <div class="pawn bg-[#e59514] text-4xl p-2">&#9817;</div>
+            <div class="pawn bg-[#ffe9c5] text-4xl p-2">&#9817;</div>
+            <div class="pawn bg-[#e59514] text-4xl p-2">&#9817;</div>
+          </div> 
+          <div class="grid grid-cols-8 text-center">
+            <div class="rook bg-[#e59514] text-4xl p-3 h-16">&#9814;</div>
+            <div class="knight bg-[#ffe9c5] text-4xl p-3">&#9816;</div>
+            <div class="bishop bg-[#e59514] text-4xl p-3">&#9815;</div>
+            <div class="queen bg-[#ffe9c5] text-4xl p-3">&#9819;</div>
+            <div class="king bg-[#e59514] text-4xl p-3">&#9818;</div>
+            <div class="bishop bg-[#ffe9c5] text-4xl p-3">&#9815;</div>
+            <div class="knight bg-[#e59514] text-4xl p-3">&#9816;</div>
+            <div class="rook bg-[#ffe9c5] text-4xl p-3">&#9814;</div>
+          </div>
+        </div>
+        <div class="grid grid-cols-8 text-center mt-3">
+          <div class="pawn bg-white  h-2 ">a</div>
+          <div class="pawn bg-white ">b</div>
+          <div class="pawn bg-white ">c</div>
+          <div class="pawn bg-white ">d</div>
+          <div class="pawn bg-white ">e</div>
+          <div class="pawn bg-white ">f</div>
+          <div class="pawn bg-white ">g</div>
+          <div class="pawn bg-white ">h</div>
+        </div>  
+      </div>
+      <div class="mt-[50px]">
+        <div class="pawn bg-white text-md p-4 h-16">8</div>
+        <div class="pawn bg-white text-md p-4 h-16">7</div>
+        <div class="pawn bg-white text-md p-4 h-16">6</div>
+        <div class="pawn bg-white text-md p-4 h-16">5</div>
+        <div class="pawn bg-white text-md p-4 h-16">4</div>
+        <div class="pawn bg-white text-md p-4 h-16">3</div>
+        <div class="pawn bg-white text-md p-4 h-16">2</div>
+        <div class="pawn bg-white text-md p-4 h-16">1</div>
+      </div>
+    </main>
+    
   </body>
 </html>
